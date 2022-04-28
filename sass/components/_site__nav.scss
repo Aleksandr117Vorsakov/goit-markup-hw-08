@@ -40,16 +40,12 @@
     &:hover:after{
         opacity: 1;
     }
-     
- 
  }
 
- 
- 
- 
  .site__nav{
- display: flex;
- align-items: center;
+     display: none;
+//  display: flex;
+//  align-items: center;
  }
  .nav__item{
     margin-right: 50px;
