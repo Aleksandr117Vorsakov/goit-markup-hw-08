@@ -1,20 +1,28 @@
 .header{
     border-bottom: 1px solid #ECECEC;
+   
 }
 
 .header__container{
+    @media screen and (min-width:768px) {
     display: flex;
-    align-items: center; 
-    
-    @media screen and (max-width: 767px) {
-        justify-content: space-between;
-        
     }
+    
+    
 }
 
 .header__nav{
     display: flex;
     align-items: center;
+    @media screen and (max-width: 767px) {
+        justify-content: space-between;
+        
+    }
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        display: flex;
+        align-items: center;
+    }
+       
 }
 .logo{
     font-family: Raleway;
@@ -23,10 +31,20 @@
     letter-spacing: 0.03em;
     color: var(--accent-color);
     align-items: center;
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    @media screen and (min-width:768px) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+    }
+   
+    
+        
+    
+    
 }
 .footer__logo{
     color: var(--main-background-color);
@@ -35,9 +53,20 @@
     line-height:1.2;
     letter-spacing: 0.03em;
     align-items: center;
+    @media screen and (min-width:480px) and (max-width:767px) {
+        width: 154px;
+        height: 28px;
+        margin-left: 163px;
+        margin-right: 163px;
     }
+    @media screen and (min-width:768px) and (max-width:1199px){
+       margin-left: 49px;
+    }
+    
+     
    
-
+   
+}
 .logo-web{
     color:var(--link-color);
 }
@@ -45,7 +74,51 @@
 a{
     text-decoration :none;
 }
+// .header{
+//     border-bottom: 1px solid #ECECEC;
+// }
 
+// .header__container{
+//     display: flex;
+//     align-items: center; 
+    
+    
+// }
+
+// .header__nav{
+//     display: flex;
+//     align-items: center;
+//    
+// }
+// .logo{
+//     font-family: Raleway;
+//     font-size: 26px;
+//     line-height:1.2;
+//     letter-spacing: 0.03em;
+//     color: var(--accent-color);
+//     align-items: center;
+//     margin-right: 93px;
+//     padding-top: 24px;
+//     padding-bottom: 25px;
+//     padding-left: 15px;
+// }
+// .footer__logo{
+//     color: var(--main-background-color);
+//     font-family: Raleway;
+//     font-size: 26px;
+//     line-height:1.2;
+//     letter-spacing: 0.03em;
+//     align-items: center;
+//     }
+   
+
+// .logo-web{
+//     color:var(--link-color);
+// }
+
+// a{
+//     text-decoration :none;
+// }
 
 
 
