@@ -178,7 +178,7 @@ textarea {
 
 /* форма футера bem */
 .form__footer{
-    @media screen and (min-width:480px) and (max-width:1199px) {
+    @media screen and (min-width:1px) and (max-width:1199px) {
         margin: 0;
     }
 }
@@ -194,7 +194,7 @@ textarea {
     color: #FFFFFF;
     
     
-    @media screen and (min-width:480px)  and (max-width:1199px){
+    @media screen and (min-width:1px)  and (max-width:1199px){
         display: flex;
         justify-content: center;
         margin-top: 60px;
@@ -216,12 +216,13 @@ textarea {
     color: var(--primary-text-color);
     padding-left: 16px;
     outline: transparent;
-    @media screen and (min-width:480px)  {
-        width: 450px;
+    @media screen and (min-width:1px)  {
+        width: 100%;
         
     }
     @media screen and (min-width:768px)  and (max-width:1199px){
         margin-left: 166px;
+        width: 450px;
     }
     @media screen and (min-width:1200px) {
         width: 358px;
@@ -247,7 +248,7 @@ textarea {
     padding: 13px 28px 13px 29px;
     text-align: center;
     letter-spacing: 0.06em;
-    @media screen and (min-width:480px) and (max-width:1199px) {
+    @media screen and (min-width:1px) and (max-width:1199px) {
         margin-top: 20px;
         margin-right: auto;
         margin-left: auto;

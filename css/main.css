@@ -155,7 +155,7 @@ body {
           align-items: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 767px) {
   .footer__logo {
     width: 154px;
     height: 28px;
@@ -625,7 +625,7 @@ a {
   padding-top: 0;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .services {
     display: none;
   }
@@ -945,7 +945,7 @@ img {
   transition: border-color var(--anim-fast);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 767px) {
   .clients__item {
     width: 210px;
     margin: 15px;
@@ -1059,7 +1059,7 @@ img {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .footer__address {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1106,7 +1106,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .footer__contact__link {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1132,7 +1132,7 @@ img {
   color: #ffffff;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 1px) and (max-width: 767px) {
   .footer__social {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1635,7 +1635,7 @@ textarea {
 }
 
 /* форма футера bem */
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .form__footer {
     margin: 0;
   }
@@ -1652,7 +1652,7 @@ textarea {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .form__footer__title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1686,15 +1686,16 @@ textarea {
   outline: transparent;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1px) {
   .from__footer__field input {
-    width: 450px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .from__footer__field input {
     margin-left: 166px;
+    width: 450px;
   }
 }
 
@@ -1734,7 +1735,7 @@ textarea {
   letter-spacing: 0.06em;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 1px) and (max-width: 1199px) {
   .form__footer__button {
     margin-top: 20px;
     margin-right: auto;
