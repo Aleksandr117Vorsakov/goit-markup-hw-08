@@ -177,7 +177,7 @@ a {
   text-decoration: none;
 }
 
-.menu-btn {
+.menu-button {
   display: block;
   width: 44px;
   height: 44px;
@@ -186,30 +186,30 @@ a {
   outline: transparent;
 }
 
-.menu-btn__icon-open:hover, .menu-btn__icon-open:focus {
+.menu-button__icon-open:hover, .menu-button__icon-open:focus {
   fill: var(--link-color);
 }
 
-.menu-btn__icon {
+.menu-button__icon {
   width: 44px;
   height: 44px;
 }
 
 @media screen and (min-width: 768px) {
-  .menu-btn {
+  .menu-button {
     display: none;
   }
 }
 
-.menu-btn__icon-close {
+.menu-button__icon-close {
   display: none;
 }
 
-.menu-btn .is-open .menu-btn__icon-close {
+.menu-button .is-open .menu-button__icon-close {
   display: block;
 }
 
-.menu-btn .is-open .menu-btn__icon-menu {
+.menu-button .is-open .menu-button__icon-menu {
   display: none;
 }
 

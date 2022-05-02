@@ -1,4 +1,4 @@
-.menu-btn{
+.menu-button{
     display: block;
     width: 44px;
     height: 44px;
@@ -19,12 +19,12 @@
     }
     
 }
-.menu-btn__icon-close{
+.menu-button__icon-close{
     display: none;
 }
-.menu-btn .is-open .menu-btn__icon-close{
+.menu-button .is-open .menu-button__icon-close{
     display: block;
 }
-.menu-btn .is-open .menu-btn__icon-menu{
+.menu-button .is-open .menu-button__icon-menu{
     display: none;
 }
