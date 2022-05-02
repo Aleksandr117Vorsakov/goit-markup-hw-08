@@ -12,15 +12,19 @@
     &__icon{
         width: 44px;
         height: 44px;
-        &-open{
-            opacity: 1;
-        }
-        &-close{
-            opacity: 0;
-        }
+       
     }
     @media screen and (min-width:768px) {
         display: none;
     }
     
+}
+.menu-btn__icon-close{
+    display: none;
+}
+.menu-btn .is-open .menu-btn__icon-close{
+    display: block;
+}
+.menu-btn .is-open .menu-btn__icon-menu{
+    display: none;
 }
