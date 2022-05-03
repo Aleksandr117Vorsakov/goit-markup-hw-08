@@ -7,21 +7,54 @@
     background-color:var(--header-footer-background-color); 
     padding-bottom: 200px;
     padding-top: 200px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100vw;
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+
+    @media screen and (min-width: 480px) {
+        height: 400px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+        height: 600px;
+
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 }
 
     
 .hero__title{
     color:var(--main-background-color);
     font-weight: 900;
-    font-size: 44px;
-    line-height:1.35;
+    font-style: 26px;
+    line-height: 42px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px;
     margin-bottom: 30px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
+
+    @media screen and (min-width: 480px) {
+        width: 360px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+        font-size: 44px;
+        line-height:1.35;
+    }
     
 }
 .hero__button{
@@ -40,50 +73,8 @@
     display: block;
     border-radius: 4px;
     border:none;
+    @media screen and (min-width:480px) and (max-width:1199px){
+        margin-bottom: 118px;
+    }
     
 }
-// .hero{
-//     background-image: linear-gradient(
-//         to right,
-//         rgba(47, 48, 58, 0.4),
-//         rgba(47, 48, 58, 0.4)),
-//         url(../images/background.jpg);
-//     background-color:var(--header-footer-background-color); 
-//     padding-bottom: 200px;
-//     padding-top: 200px;
-// }
-
-    
-// .hero__title{
-//     color:var(--main-background-color);
-//     font-weight: 900;
-//     font-size: 44px;
-//     line-height:1.35;
-//     text-align: center;
-//     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-//     width: 696px;
-//     margin-bottom: 30px;
-//     margin-right: auto;
-//     margin-left: auto;
-    
-// }
-// .hero__button{
-//     color: var(--main-background-color);
-//     background-color: var(--link-color);
-//     font-family: Roboto;
-//     font-style: normal;
-//     font-weight: bold;
-//     font-size: 16px;
-//     line-height: 1.8;
-//     letter-spacing: 0.06em;
-//     cursor: pointer;
-//     width: 200px;
-//     height: 50px;
-//     margin: 0 auto;
-//     display: block;
-//     border-radius: 4px;
-//     border:none;
-    
-// }  
-
