@@ -1,4 +1,4 @@
-.btn-mobile{
+.menu-btn{
   position: relative;
   display: block;
   width: 40px;
@@ -10,22 +10,21 @@
   @media screen and (min-width:768px){
      display: none;
   }
- 
- .btn-mobile-menu .menu-btn{
+  &__icon {
   fill: #212121;
   width: 40px;
   height: 40px;
-  &-open{
+    &-open{
     opacity: 1;
-  }
-  &-close{
+    }
+    &-close{
     opacity: 0;
+    }
   }
 }
-.menu-btn .is-open .menu-btn-open{
-  opacity: 1;
-}
-.menu-btn .is-open .menu-btn-close{
+.menu-btn.is-open .menu-btn__icon-open{
   opacity: 0;
 }
+.menu-btn.is-open .menu-btn__icon-close{
+  opacity: 1;
 }

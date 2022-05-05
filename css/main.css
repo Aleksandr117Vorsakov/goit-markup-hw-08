@@ -177,7 +177,7 @@ a {
   text-decoration: none;
 }
 
-.btn-mobile {
+.menu-btn {
   position: relative;
   display: block;
   width: 40px;
@@ -189,31 +189,31 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .btn-mobile {
+  .menu-btn {
     display: none;
   }
 }
 
-.btn-mobile .btn-mobile-menu .menu-btn {
+.menu-btn__icon {
   fill: #212121;
   width: 40px;
   height: 40px;
 }
 
-.btn-mobile .btn-mobile-menu .menu-btn-open {
+.menu-btn__icon-open {
   opacity: 1;
 }
 
-.btn-mobile .btn-mobile-menu .menu-btn-close {
+.menu-btn__icon-close {
   opacity: 0;
 }
 
-.btn-mobile .menu-btn .is-open .menu-btn-open {
+.menu-btn.is-open .menu-btn__icon-open {
+  opacity: 0;
+}
+
+.menu-btn.is-open .menu-btn__icon-close {
   opacity: 1;
-}
-
-.btn-mobile .menu-btn .is-open .menu-btn-close {
-  opacity: 0;
 }
 
 .mobile-overlay {
