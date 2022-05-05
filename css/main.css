@@ -579,7 +579,6 @@ a {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1600px;
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -1134,7 +1133,13 @@ img {
   transition: border-color var(--anim-fast);
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+  .clients__item {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .clients__item {
     width: 210px;
     margin: 15px;
