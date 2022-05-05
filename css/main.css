@@ -178,7 +178,9 @@ a {
 }
 
 .menu-btn {
-  position: relative;
+  position: fixed;
+  top: 10px;
+  right: 15px;
   display: block;
   width: 40px;
   height: 40px;
@@ -192,6 +194,10 @@ a {
   .menu-btn {
     display: none;
   }
+}
+
+.menu-btn__icon:hover {
+  fill: #2196F3;
 }
 
 .menu-btn__icon {
