@@ -30,12 +30,14 @@
     padding-left: 40px;
     list-style-type: none;
 }
+
 .mobile-nav-link{
  text-decoration: none;
  color: #212121;
     &:hover{
         color: #2196F3;
     }
+    
 }
 .mobile-nav-item{
 font-style: normal;

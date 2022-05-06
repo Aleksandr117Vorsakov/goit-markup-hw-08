@@ -3,7 +3,45 @@
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url('/images/Header\ img.jpg');
+        url('/images/Header_ml.jpg');
+     @include mq(retina){
+        background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url('/images/Header_ml@2x.jpg');   
+    }
+    @include mq(tabilet){
+        background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url('/images/Header_tb.jpg');
+    
+     @include mq(retina){
+        background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url('/images/Header_tb@2x.jpg'); 
+        } 
+    }
+    @include mq(desktop){
+        background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url('/images/Img_ds.jpg');
+    
+      @include mq(retina){
+        background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url('/images/Img_ds@2x.jpg');  
+      }
+    }
+
     background-color:var(--header-footer-background-color); 
     padding-bottom: 118px;
     padding-top: 118px;
@@ -30,21 +68,7 @@
         padding-top: 200px;
         padding-bottom: 200px;
     }
-}
-@media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(to right,
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)),
-        url('/images/Header\ img@2x.jpg');
-    }
-
-
-}
-    
+}   
 .hero__title{
     color:var(--main-background-color);
     font-weight: 900;
