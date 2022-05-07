@@ -3,27 +3,27 @@
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url('/images/Header_ml.jpg');
+        url('../images/Header_ml.jpg');
      @include mq(retina){
         background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url('/images/Header_ml@2x.jpg');   
+        url('../images/Header_ml@2x.jpg');   
     }
     @include mq(tabilet){
         background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url('/images/Header_tb.jpg');
+        url('../images/Header_tb.jpg');
     
      @include mq(retina){
         background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url('/images/Header_tb@2x.jpg'); 
+        url('../images/Header_tb@2x.jpg'); 
         } 
     }
     @include mq(desktop){
@@ -31,14 +31,14 @@
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url('/images/Img_ds.jpg');
+        url('../images/Img_ds.jpg');
     
       @include mq(retina){
         background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url('/images/Img_ds@2x.jpg');  
+        url('../images/Img_ds@2x.jpg');  
       }
     }
 
