@@ -158,25 +158,49 @@
             <ul class="list services__picture">
                 <li class="services__item">
                     <div class="services__thumb">
-                       <img src="./images/box 1.jpg"
-                        alt="техника на столе "
-                        width="370">
+                        <picture>
+                            <source
+                              srcset="./images/services/box1_ds@2x.jpg 2x"
+                              media="(min-width:1200px)"
+                              type="images/jpeg"
+                            />
+                           <img src="./images/box1_ds.jpg"
+                             alt="техника на столе "
+                             width="370">
+                        </picture>
+                       
                        <p class="services__label">Десктопные приложения</p>
                     </div>
                 </li>
                 <li class="services__item">
                     <div class="services__thumb">
-                        <img src="./images/box 2.jpg"
-                         alt="телефон в руке "
-                         width="370">
+                        <picture>
+                            <source
+                               srcset="./images/services/box2_ds@2x.jpg 2x"
+                               media="(min-width:1200px)"
+                               type="images/jpeg"
+                            />
+                            <img src="./images/box2_ds.jpg"
+                              alt="телефон в руке "
+                              width="370">
+                        </picture>
+                        
                         <p class="services__label">Мобильные приложения</p>
                     </div>
                 </li>
                 <li class="services__item">
                     <div class="services__thumb">
-                        <img src="./images/box 3.jpg"
-                        alt="Планшет в руках"
-                        width="370">
+                        <picture>
+                           <source
+                               srcset="./images/services/box3_ds@2x.jpg 2x"
+                               media="(min-width:1200px)"
+                               type="images/jpeg"
+                           />
+                            <img src="./images/box3_ds.jpg"
+                             alt="Планшет в руках"
+                             width="370">
+                        </picture>
+                        
                         <p class="services__label">Дизайнерские решения</p>
                     </div>
                 </li>
@@ -545,7 +569,7 @@
           <nav class="mobile-nav">
           <ul class="mobile-nav-list">
             <li class="mobile-nav-item">
-              <a class="mobile-nav-link" href="">Студия</a></li>
+              <a class="mobile-nav-link__current" href="">Студия</a></li>
               <li class="mobile-nav-item">
                <a  class="mobile-nav-link"href="">Портфолио</a></li>
                <li class="mobile-nav-item">
