@@ -1085,7 +1085,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .team__staff {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1134,10 +1134,9 @@ img {
   .team__staff__item {
     margin-right: 30px;
   }
-}
-
-.team__staff__item:last-child {
-  margin-right: 0;
+  .team__staff__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .team__work {
