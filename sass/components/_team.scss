@@ -3,11 +3,13 @@
 }
 .team__title{
     color:var(--heading-main-color);
-    font-size: 36px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0 auto;
+    @media screen and (max-width:767px){
+        font-size: 28px;
+    }
     @media screen and (min-width:768px) {
         margin-bottom: 30px;
     }
@@ -115,7 +117,9 @@
 
 
 .team__staff{
-   margin-top: 50px;
+    @media screen and (max-width:767px){
+        margin-top: 30px; 
+    }
 
    @media screen and (min-width:768px){
        display: flex;
@@ -124,6 +128,7 @@
    }
    @media screen and (min-width:1200px){
        display: flex;
+       margin-top: 50px;
    }
 }
 .team__staff__item{
