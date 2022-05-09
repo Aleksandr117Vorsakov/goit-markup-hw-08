@@ -202,7 +202,7 @@ a {
   background-color: transparent;
   border: transparent;
   outline: transparent;
-  z-index: 99;
+  z-index: 98;
 }
 
 @media screen and (min-width: 768px) {
@@ -243,7 +243,7 @@ a {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 10;
+  z-index: 97;
   visibility: hidden;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
@@ -273,10 +273,15 @@ a {
   background: #fff;
 }
 
+.mobile-nav {
+  margin-bottom: auto;
+}
+
 .mobile-nav-list {
   padding-top: 48px;
   padding-left: 40px;
   list-style-type: none;
+  margin-bottom: 302px;
 }
 
 .mobile-nav-link__current {
@@ -305,8 +310,8 @@ a {
 }
 
 .mobile-contact-list {
+  display: block;
   list-style-type: none;
-  margin-top: 302px;
 }
 
 .mobile-contact-item {
@@ -347,9 +352,11 @@ a {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  margin-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-bottom: 48px;
   margin-top: 64px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .mobile-socials-link {
@@ -700,6 +707,7 @@ a {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
+  z-index: 99;
 }
 
 .backdrop.is-hidden {
@@ -955,6 +963,13 @@ img {
 @media screen and (min-width: 768px) {
   .team__title {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team__title {
+    font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1507,7 +1522,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio {
     margin-left: 64px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
 }
 
@@ -1519,7 +1534,6 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 34px;
   }
 }
 
@@ -1563,6 +1577,18 @@ img {
   margin: 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .portfolio__menu {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__menu {
+    margin-bottom: 0px;
+  }
+}
+
 .portfolio__title {
   color: var(--heading-main-color);
   font-size: 18px;
@@ -1597,6 +1623,12 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio__card {
     margin: -15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__card {
+    margin-top: 50px;
   }
 }
 
