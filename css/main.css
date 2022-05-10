@@ -277,11 +277,17 @@ a {
   margin-bottom: auto;
 }
 
+.mobile-contact__grup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
 .mobile-nav-list {
   padding-top: 48px;
   padding-left: 40px;
   list-style-type: none;
-  margin-bottom: 302px;
+  margin-bottom: auto;
 }
 
 .mobile-nav-link__current {
@@ -809,6 +815,15 @@ a {
 
 .skills__item {
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .skills__item {
+    margin-bottom: 30px;
+  }
+  .skills__item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
