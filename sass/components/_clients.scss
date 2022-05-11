@@ -28,6 +28,7 @@
     }
     @media screen and (min-width:1200px){
         display: flex;
+        margin-bottom: -15px;
     }
     
     
@@ -45,6 +46,8 @@
     @media screen and (min-width:1200px){
         width: 170px;
         margin-right: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
         &:last-child{
             margin-right: 0;
         }
