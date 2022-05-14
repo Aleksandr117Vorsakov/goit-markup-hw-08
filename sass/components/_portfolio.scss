@@ -12,6 +12,7 @@
     @media screen and (min-width:1200px){
         display: flex;
         justify-content: center;
+        margin-bottom: 50px;
     }
    
 }
@@ -72,7 +73,7 @@
 .portfolio__card{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+   
     @media screen and (min-width:480px) {
         margin-top: 25px;
     }
@@ -80,7 +81,8 @@
         margin: -15px;
     }
     @media screen and (min-width:1200px) {
-        margin-top: 50px;
+        margin-top: -30px;
+        margin-left: -30px;
     }
 }
 .portfolio__card__item { 
@@ -96,8 +98,8 @@
     }
     @media screen and (min-width:1200px) {
         width: 370px;
-        margin-right: 30px;
-        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 30px;
        
     }
     @media screen and (min-width:480px) and (max-width:767px){
